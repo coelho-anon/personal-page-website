@@ -1,0 +1,53 @@
+#fixed-menu-desktop{
+	width: 20%;
+	height: 100%;
+	position: fixed;
+	background-color: black;
+	display: inline-block;
+}
+
+	#align-menu{
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		text-align: center;
+	}
+
+		#profile-image{
+			border: 5px solid #484848;
+		    border-radius: 50%;
+		    width: 150px;
+		    margin-left: 10%;
+		    margin-top: 10%;
+		}
+
+		#person-name{
+			color: white;
+			text-align: center;
+			margin-left: 10%;
+			font-size: 1.4em;
+		}
+
+		.list-menu{
+			display: block;
+			list-style: none;
+			text-align: center;
+		}
+
+			.list-menu li{
+				margin-bottom: 4%;
+				margin-top: 10%;
+			}
+
+			.menu-link{
+				text-decoration: none;
+				color: white;
+				font-size: 1.2em;
+				transition: .2s;
+			}
+
+			.menu-link:hover{
+				color: #007bff;
+				transition: .2s;
+				font-weight: bolder;
+			}

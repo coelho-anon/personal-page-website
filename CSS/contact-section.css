@@ -1,0 +1,22 @@
+#contact-section{
+	background-color: #111111;
+	margin-left: 20%;
+	margin-top: 5%;
+}
+
+	#contact-section-content{
+		margin-left: 5%;
+	}
+
+		#div-contact-icons{
+			display: flex;
+			justify-content: space-around;
+			width: 100%;
+			text-align: center;
+			color: white;
+			padding-top: 8%;
+			font-size: 1.2em;
+		}
+
+			.contact-icons{
+			}

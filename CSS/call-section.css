@@ -1,0 +1,62 @@
+#call-section{
+	
+	background: url(../images/hire.jpg);
+	background-attachment: fixed;
+  	background-position: center;
+  	background-repeat: no-repeat;
+  	background-size: cover;
+}
+
+	#call-section-content{
+		margin-left: 20%;
+		background-color: black;
+		opacity: .8;
+		width: 80%;
+		padding-top: 1%;
+		padding-bottom: 1%;
+		margin-top: 5%;
+		color: white;
+		display: flex;
+	}
+
+		.call-section-divs{
+			display: inline-block;
+		}
+
+		#second-call-section-div{
+			margin-left: 25%;
+			align-self: center;
+		}
+
+		.call-section-divs h1{
+			font-size: 3.8em;
+			margin-left: 5%;
+		}
+
+		.call-section-divs h3{
+			margin-left: 5%;
+		}
+
+		#hire-btn{
+			background-color: #007bff;
+			border: none;
+		    color: white;
+		    padding: 15px 40px;
+		    text-align: center;
+		    text-decoration: none;
+		    display: inline-block;
+		    margin: 4px 2px;
+		    cursor: pointer;
+		    border-radius: 26px;
+		    margin-top: 40%;
+		    font-size: 1.2em;
+		    transition: .2s;
+		    font-weight: bolder;
+		}
+
+		#hire-btn:hover{
+			background-color: #0ecc67;
+			color: black;
+			transition: .2s;
+
+		}

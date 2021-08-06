@@ -1,0 +1,279 @@
+@media only screen and (max-device-width: 900px){
+  	body{
+  		
+  	}
+
+  	#about-main-inside{
+		margin-left: auto;
+		margin-right: auto;
+		text-align: center;
+		display: block;
+	}
+
+	  	.about-content, #div-right{
+			display: block;
+			margin-left: auto;
+			margin-right: auto;
+			text-align: center;
+			height: auto;
+		}
+
+		#div-right{
+			font-size: 1.5em;
+			text-align: justify;
+		}
+
+		  	#div-img{
+				display: block;
+			}
+
+			#about-img{
+				border-radius: 50%;
+			}
+
+		#about-text-content{
+			display: block;
+		}
+
+			.about-div-personal-informations{
+				width: auto;
+			}
+
+  	#services-section-title, #portifolio-section-title,
+  	#email-section-title{
+		text-align: center;
+	}
+
+  	.service-cards{
+		width: 40%;
+		font-size: 2em;
+	}
+
+  	#call-section-content{
+		margin-left: auto;
+		margin-right: auto;
+		text-align: center;
+		display: block;
+	}
+
+		#second-call-section-div{
+			margin-left: 0px;
+		}
+
+
+	  	.call-section-divs{
+			font-size: 1.4em;
+			display: block;
+			text-align: center;
+			width: 100%;
+		}
+
+			#hire-btn{
+				margin-top: 0px;
+			    padding: 15px 40px;
+			}
+
+  	.portifolio-category-btn{
+		font-size: 2.2em;
+	}
+
+	.portifolio-itens{
+		width: 45%;
+		height: auto;
+	}
+
+  	.testimonials-cards-gallery{
+		display: inline-block;
+	}
+
+			.testimonials-cards{
+				width: 70%;
+				height: 40%;
+				padding: 2%;
+				margin-top: 1%;
+				font-size: 2.2em;
+			}
+
+  	#blog-section-title{
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		text-align: center;
+	}
+
+  	#blog-cards-gallery{
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		text-align: center;
+	}
+
+	  	.blog-cards{
+			width: 70%;
+			text-align: left;
+			font-size: 1.8em;
+		}
+
+			.date-blog-cards{
+				font-size: 1.2em;
+				width: 40%;
+			}
+
+	#div-contact-icons{
+		font-size: 1.5em;
+	}
+
+
+}
+
+@media only screen and (max-device-width: 650px){
+
+	#div-right{
+		font-size: 1.8em;
+	}
+
+		.blog-cards-title{
+			height: auto;
+			font-size: 1.4em;
+		}
+
+			.tags-blog-cards{
+				font-size: 1.2em;
+				text-decoration: none;
+			}
+
+
+	.client-icon{
+		transform: scale(1.8);
+	}
+
+	.service-cards{
+		width: 80%;
+		font-size: 2.4em;
+	}
+
+		.service-cards-header img{
+			transform: scale(2);
+		}
+}
+
+@media only screen and (max-device-width: 500px){
+
+	#div-header-phrase{
+		font-size: 1.4em;
+	}
+
+	#mobile-menu-open-close-btn{
+		border: none;
+		background-color: #007bff;
+		font-size: 4.4em;
+		border-radius: 5px;
+		padding-left: 2%;
+		padding-right: 2%;
+		color: white;
+		margin: 1%;
+	}
+
+	.mobile-menu-link{
+		font-size: 4.5em;
+	}
+
+	#about-words{
+		font-size: 3.8em;
+	}
+
+	#div-right{
+		width: 80%;
+	}
+
+	#about-description{
+		font-size: 1.6em;
+		font-weight: normal;
+	}
+
+	#services-section-title{
+		font-size: 3.8em;
+	}
+
+	.service-cards{
+		font-size: 3em;
+		width: 90%;
+	}
+
+	.call-section-divs{
+		font-size: 2em;
+	}
+
+		#hire-btn{
+			font-size: 2em;
+		}
+
+	#portifolio-section-title{
+		font-size: 3.8em;
+	}
+
+	.portifolio-category-btn{
+		font-size: 3.2em;
+	}
+
+	#testimonials-section-title{
+		font-size: 3.8em;
+	}
+
+	.testimonials-cards{
+		width: 90%;
+		font-size: 3.2em;
+	}
+		.testimonials-cards-header img{
+			transform: scale(2);
+		}
+
+	#blog-section-title{
+		font-size: 3.8em;
+	}
+
+	.blog-cards{
+		width: 90%;
+		font-size: 2.3em;
+	}
+
+	#email-section-title{
+      font-size: 3.8em;
+      text-align: center;
+    }
+
+    form{
+      font-size: 2.4em;
+    }
+
+    #div-contact-icons{
+		font-size: 2.2em;
+		display: block;
+	}
+
+	#div-contact-icons h3{
+		padding: 2%;
+		margin: 0px;
+	}
+		.contact-icons{
+			transform: scale(2);
+			margin-top: 20%;
+		}
+
+}
+
+@media only screen and (max-device-width: 400px){
+
+	.about-div-personal-informations{
+		font-size: 1.5em;
+	}
+
+	.service-cards{
+		font-size: 4em;
+	}
+
+	.portifolio-category-btn{
+		font-size: 4em;
+	}
+
+}

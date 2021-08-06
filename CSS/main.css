@@ -1,0 +1,43 @@
+/*scroll bar width */
+::-webkit-scrollbar {
+  width: 9px;
+  scroll-behavior: smooth;
+}
+
+/*scroll bar Track */
+::-webkit-scrollbar-track {
+  background-color: grey;
+}
+
+/*scroll bar Handle */
+::-webkit-scrollbar-thumb {
+  background: #272222;
+  border-radius: 30px;
+  transition: .2s;
+}
+
+/*scroll bar Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: black;
+  transition: .2s;
+}
+
+::-moz-selection {
+  color: #007bff;
+  background: black;
+}
+
+::selection {
+  color: #007bff;
+  background: black;
+}
+
+body{
+	margin: 0px;
+	padding: 0px;
+	color: #333;
+    font-family: "Open Sans",sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.75;
+}
